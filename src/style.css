@@ -1,0 +1,84 @@
+/* style.css */
+
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  height:10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(1, 16, 26);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.next-word {
+  color: rgb(163, 184, 219);
+  font-size: 18px;
+}
+
+.score {
+  font-size: 18px;
+  color: rgb(6, 115, 180);
+}
+
+/* Game styles */
+.game {
+  height: 80vh;
+  width: auto;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 23, 35);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  gap: 1px;
+  background-color: rgb(3, 23, 35);
+  border: 1px solid #ccc;
+  border: 2px solid green;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border: 1px solid #999;
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  background-color: rgb(1, 16, 26);
+  height: 10vh;
+}
+
+.timer {
+  justify-self: end;
+  color: rgb(37, 205, 127);
+  font-size: 18px;
+}
+
+.hint {
+  font-size: 18px;
+}
